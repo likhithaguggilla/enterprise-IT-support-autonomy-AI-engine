@@ -21,10 +21,14 @@ By moving beyond traditional keyword-matching chatbots, this engine utilizes sem
 * **Automated QA & Evaluation:** An "LLM-as-a-Judge" framework that mathematically scores agent responses against ground-truth data to ensure accuracy and minimize hallucinations.
 
 
-
 ---
 
-## Technical Architecture
+## System Architecture
+
+![Architecture Diagram](https://github.com/likhithaguggilla/enterprise-IT-support-autonomy-AI-engine/blob/main/assets/system-architecture.png)
+
+
+---
 
 ### Tech Stack
 
@@ -40,8 +44,7 @@ By moving beyond traditional keyword-matching chatbots, this engine utilizes sem
 * **Embeddings:** Hugging Face (`all-MiniLM-L6-v2`) 
 
 
-* **Integrations:** Google Drive (Ingestion), Google Sheets (Database), and Gmail (Approvals) 
-
+* **Integrations:** Google Drive (Ingestion), Google Sheets (Database), and Gmail (Approvals)
 
 
 ---
@@ -100,6 +103,7 @@ To ensure enterprise-grade reliability, the agent operates under strict constrai
 
 
 ---
+
 
 
 
